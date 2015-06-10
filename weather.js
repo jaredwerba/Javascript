@@ -34,3 +34,14 @@ var languages = ["HTML", "CSS", "JavaScript", "Python", "Ruby"];
 for (var i = 0; i < languages.length; i++){
     console.log(languages[i]);
 }
+
+
+var object1 = new Object();
+var object2 = {};
+var object3 = {};
+
+object1.name = 'jared';
+object2['age']=29;
+object3.location ='earth';
+
+console.log(object1, object2, object3)
