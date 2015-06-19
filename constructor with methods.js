@@ -143,8 +143,43 @@ var olderAge = function (person1, person2) {
   };
 };
 
-// Let's bring back alice and billy to test our new function
+
+//
+// Displaying People
+// We currently can print out information about any person in our contacts with console.log. That gets tiring. If only we knew some code that stores blocks of code that we can call.
+//
+// Good thing we know about functions!
+//
+// We can create a function that consistently displays a specific property of an object.
+//
+// Instructions
+// Define a function called printPerson that takes a parameter called person.
+// In the function body, print out the person parameter's firstName property by accessing it with a dot just like before. Then print a space, then their lastName in the same way.
+// Call the printPerson() function to print out the first item in the contacts array. The first item in an array is at position 0.
+// Then on the next line, call printPerson() again to print out the second item in the contacts array.
+// Don't worry if your output appears twice - we're just double checking your code!
+//
+//
+// // Let's bring back alice and billy to test our new function
 var alice = new Person("Alice", 30);
 var billy = new Person("Billy", 25);
 
 console.log("The older person is " + olderAge(alice, billy));
+
+var bob = {
+    firstName: "Bob",
+    lastName: "Jones",
+    phoneNumber: "(650) 777-7777",
+    email: "bob.jones@example.com"
+};
+
+var mary = {
+    firstName: "Mary",
+    lastName: "Johnson",
+    phoneNumber: "(650) 888-8888",
+    email: "mary.johnson@example.com"
+};
+
+var contacts = [bob, mary];
+
+// printPerson added here
