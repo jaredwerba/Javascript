@@ -45,3 +45,20 @@ object2['age']=29;
 object3.location ='earth';
 
 console.log(object1, object2, object3)
+
+
+// Our bob object again, but made using a constructor this time
+var bob = new Object();
+bob.name = "Bob Smith";
+bob.age = 30;
+// Here is susan1, in literal notation
+var susan1 = {
+  name: "Susan Jordan",
+  age: 24
+};
+// Make a new susan2 object, using a constructor instead
+
+var susan2 = new Object();
+
+susan2.name = "Susan Jordan";
+susan2.age = 24;
